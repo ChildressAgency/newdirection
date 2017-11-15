@@ -1,0 +1,147 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>Webfonts Demo</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <style type="text/css">
+	    body, textarea { font-family:Arial, Sans-Serif; line-height:1.6em; font-size:13px; }
+	    h1 { font-size:3em; }
+	    h2, h3 { color:#999; }
+	    .content { width:780px; margin: 20px auto 40px; }
+	    .demo { font-weight:bold; font-style:normal; color: #999 }
+	    .fontdisplay {font-size:2em;line-height:150%;margin: 10px 40px 0px 0px;}
+	    .guidelines { color:#333; }
+	    pre { padding:0 0 0 20px; }
+	    hr { border:0; border-bottom:1px solid #537094; margin:20px 0; }
+	    .link { color: #537094;text-decoration:none; font-weight:bold;}
+	    .uc {text-transform:uppercase}
+	    #para1{font-family:"Semplicita W01_n5";}
+#para2{font-family:"Semplicita W01_n6";}
+#para3{font-family:"Semplicita W01_n2";}
+
+@media all and (min-width: 0px) {
+#para1{font-family:'Semplicita W01'; font-weight: 500; font-style: normal;}
+#para2{font-family:'Semplicita W01'; font-weight: 600; font-style: normal;}
+#para3{font-family:'Semplicita W01'; font-weight: 200; font-style: normal;}
+
+}
+    </style>
+    <style type="text/css">
+
+@import url("http://fast.fonts.net/t/1.css?apiType=css&projectid=6a034062-93cf-4a57-92ce-40beff95e97f");
+    @font-face{
+        font-family:"Semplicita W01_n2";
+        src:url("Fonts/73544a3a-e9ac-413c-b667-c9e574ec11c5.eot?#iefix") format("eot")
+    }
+    @font-face{
+        font-family:"Semplicita W01";
+        src:url("Fonts/73544a3a-e9ac-413c-b667-c9e574ec11c5.eot?#iefix");
+        src:url("Fonts/73544a3a-e9ac-413c-b667-c9e574ec11c5.eot?#iefix") format("eot"),url("Fonts/dba7a1ae-cc37-4c10-a2bf-1818a3ad5db3.woff2") format("woff2"),url("Fonts/a98f9e62-325b-49bb-9cf0-7df0bc64b745.woff") format("woff"),url("Fonts/b9e8ccf6-7f26-46a8-85fc-3dbc0c2bebff.ttf") format("truetype"),url("Fonts/f8988480-2c8e-48d9-8db6-aa140c333bb4.svg#f8988480-2c8e-48d9-8db6-aa140c333bb4") format("svg");
+font-weight: 200;
+font-style: normal;
+    }
+    @font-face{
+        font-family:"Semplicita W01_n5";
+        src:url("Fonts/385dca89-ab66-4a60-9773-3248fcda8d4c.eot?#iefix") format("eot")
+    }
+    @font-face{
+        font-family:"Semplicita W01";
+        src:url("Fonts/385dca89-ab66-4a60-9773-3248fcda8d4c.eot?#iefix");
+        src:url("Fonts/385dca89-ab66-4a60-9773-3248fcda8d4c.eot?#iefix") format("eot"),url("Fonts/0203ed4e-5c8b-4ada-87f1-b2f45941d310.woff2") format("woff2"),url("Fonts/f68c2972-cbb3-4ca6-b12c-15e2cfc18ff6.woff") format("woff"),url("Fonts/6f3e4712-8ff9-4b71-bcde-70f60b59d24c.ttf") format("truetype"),url("Fonts/56f015af-156d-4cb9-937a-4c228a814578.svg#56f015af-156d-4cb9-937a-4c228a814578") format("svg");
+font-weight: 500;
+font-style: normal;
+    }
+    @font-face{
+        font-family:"Semplicita W01_n6";
+        src:url("Fonts/db58a54d-2c13-41b1-90ae-988eefe6dff4.eot?#iefix") format("eot")
+    }
+    @font-face{
+        font-family:"Semplicita W01";
+        src:url("Fonts/db58a54d-2c13-41b1-90ae-988eefe6dff4.eot?#iefix");
+        src:url("Fonts/db58a54d-2c13-41b1-90ae-988eefe6dff4.eot?#iefix") format("eot"),url("Fonts/306e34ea-ee67-41d0-8336-5c852539ece5.woff2") format("woff2"),url("Fonts/43d2d7fd-af79-4213-9098-a41d8802688b.woff") format("woff"),url("Fonts/00efdaf2-f19d-40e7-9d6c-18c2de56f89c.ttf") format("truetype"),url("Fonts/8bb41e51-60e6-416f-aabb-658ebdf0c741.svg#8bb41e51-60e6-416f-aabb-658ebdf0c741") format("svg");
+font-weight: 600;
+font-style: normal;
+    }
+
+    </style>
+</head>
+<body>
+    <div class="content">
+        <h1 class="demo">Fonts.com Web fonts</h1>
+        <p style="margin-top:-10px; font-size:1.5em;color:#666"><b>@font-face implementation instructions</b></p>
+        <hr />
+        <p class="uc">The fonts contained in this kit are:</p>
+        <div class="fontdisplay">
+<div id="para1"> Semplicita W01 Medium </div>
+<div id="para2"> Semplicita W01 Semibold </div>
+<div id="para3"> Semplicita W01 Light </div>
+
+        </div>
+        <hr />
+        Click here for <a class="link uc" href="demo-async.htm">asynchronous</a> web fonts implementation
+        <hr />
+        <div class="guidelines">
+            <h2>CSS Implementation Guidelines</h2>
+            <p>You and any third party web font hosting service are responsible for ensuring that the font software in the self-hosting kit, in its original format, can only be used on the Web Sites for which the self-hosting kit was downloaded and cannot be used or referenced by any other web site. This includes, but is not limited to installing adequate technical protection measures that restrict the use and/or access to the font software, for instance by utilizing JavaScript or access control mechanism for cross-origin resource sharing and protecting against use on web sites other than the Web Sites for which the self-hosting kit was downloaded by restricting domain access only to such Web Sites. You must also retain the pageview tracking code on any Web Site that you self-host. In the event this Agreement terminates for any reason, the font software included with the self-hosting kit must be deleted from the server and all copies must be destroyed or returned to Monotype Imaging.</p>
+            <p>View <a class="link" href="http://www.fonts.com/info/legal/eula/web-fonts" target="_blank">"WEB FONT SOFTWARE" LICENSE AGREEMENT</a></p>
+            <p>Font file names have been obfuscated to protect the font software. You can identify font format based on file ending:</p>
+            <ul>
+                <li>1 - TrueType (ttf)</li>
+                <li>2 - Embedded OpenType (eot)</li>
+                <li>3 - Web Open Font Format (woff)</li>
+                <li>4 - Web Open Font Format version 2 (woff2)</li>
+                <li>5 - Scalable Vector Graphics (svg)</li>
+            </ul>
+            <p class="uc" style="margin: 20px 0px -20px;"><b>Copy and paste following code in head section of the page</b></p>
+            <hr />
+            <textarea style="width:830px; height:350px; border:1 #fff solid; background-color:#fcfcfc;"><style type="text/css">
+
+@import url("http://fast.fonts.net/t/1.css?apiType=css&projectid=6a034062-93cf-4a57-92ce-40beff95e97f");
+    @font-face{
+        font-family:"Semplicita W01_n2";
+        src:url("Fonts/73544a3a-e9ac-413c-b667-c9e574ec11c5.eot?#iefix") format("eot")
+    }
+    @font-face{
+        font-family:"Semplicita W01";
+        src:url("Fonts/73544a3a-e9ac-413c-b667-c9e574ec11c5.eot?#iefix");
+        src:url("Fonts/73544a3a-e9ac-413c-b667-c9e574ec11c5.eot?#iefix") format("eot"),url("Fonts/dba7a1ae-cc37-4c10-a2bf-1818a3ad5db3.woff2") format("woff2"),url("Fonts/a98f9e62-325b-49bb-9cf0-7df0bc64b745.woff") format("woff"),url("Fonts/b9e8ccf6-7f26-46a8-85fc-3dbc0c2bebff.ttf") format("truetype"),url("Fonts/f8988480-2c8e-48d9-8db6-aa140c333bb4.svg#f8988480-2c8e-48d9-8db6-aa140c333bb4") format("svg");
+font-weight: 200;
+font-style: normal;
+    }
+    @font-face{
+        font-family:"Semplicita W01_n5";
+        src:url("Fonts/385dca89-ab66-4a60-9773-3248fcda8d4c.eot?#iefix") format("eot")
+    }
+    @font-face{
+        font-family:"Semplicita W01";
+        src:url("Fonts/385dca89-ab66-4a60-9773-3248fcda8d4c.eot?#iefix");
+        src:url("Fonts/385dca89-ab66-4a60-9773-3248fcda8d4c.eot?#iefix") format("eot"),url("Fonts/0203ed4e-5c8b-4ada-87f1-b2f45941d310.woff2") format("woff2"),url("Fonts/f68c2972-cbb3-4ca6-b12c-15e2cfc18ff6.woff") format("woff"),url("Fonts/6f3e4712-8ff9-4b71-bcde-70f60b59d24c.ttf") format("truetype"),url("Fonts/56f015af-156d-4cb9-937a-4c228a814578.svg#56f015af-156d-4cb9-937a-4c228a814578") format("svg");
+font-weight: 500;
+font-style: normal;
+    }
+    @font-face{
+        font-family:"Semplicita W01_n6";
+        src:url("Fonts/db58a54d-2c13-41b1-90ae-988eefe6dff4.eot?#iefix") format("eot")
+    }
+    @font-face{
+        font-family:"Semplicita W01";
+        src:url("Fonts/db58a54d-2c13-41b1-90ae-988eefe6dff4.eot?#iefix");
+        src:url("Fonts/db58a54d-2c13-41b1-90ae-988eefe6dff4.eot?#iefix") format("eot"),url("Fonts/306e34ea-ee67-41d0-8336-5c852539ece5.woff2") format("woff2"),url("Fonts/43d2d7fd-af79-4213-9098-a41d8802688b.woff") format("woff"),url("Fonts/00efdaf2-f19d-40e7-9d6c-18c2de56f89c.ttf") format("truetype"),url("Fonts/8bb41e51-60e6-416f-aabb-658ebdf0c741.svg#8bb41e51-60e6-416f-aabb-658ebdf0c741") format("svg");
+font-weight: 600;
+font-style: normal;
+    }
+
+</style>
+
+</textarea>
+            <h3>Licensing information should be included within the CSS</h3>
+<pre>/*
+This CSS resource incorporates links to font software which is the valuable copyrighted
+property of Monotype Imaging and/or its suppliers. You may not attempt to copy, install,
+redistribute, convert, modify or reverse engineer this font software. Please contact Monotype
+Imaging with any questions regarding Web Fonts:  http://www.fonts.com
+*/</pre>
+        </div>
+    </div>
+</body>
+</html>

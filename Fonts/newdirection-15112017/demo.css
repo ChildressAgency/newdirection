@@ -1,0 +1,35 @@
+
+@import url("http://fast.fonts.net/t/1.css?apiType=css&projectid=6a034062-93cf-4a57-92ce-40beff95e97f");
+    @font-face{
+        font-family:"Semplicita W01_n2";
+        src:url("Fonts/73544a3a-e9ac-413c-b667-c9e574ec11c5.eot?#iefix") format("eot")
+    }
+    @font-face{
+        font-family:"Semplicita W01";
+        src:url("Fonts/73544a3a-e9ac-413c-b667-c9e574ec11c5.eot?#iefix");
+        src:url("Fonts/73544a3a-e9ac-413c-b667-c9e574ec11c5.eot?#iefix") format("eot"),url("Fonts/dba7a1ae-cc37-4c10-a2bf-1818a3ad5db3.woff2") format("woff2"),url("Fonts/a98f9e62-325b-49bb-9cf0-7df0bc64b745.woff") format("woff"),url("Fonts/b9e8ccf6-7f26-46a8-85fc-3dbc0c2bebff.ttf") format("truetype"),url("Fonts/f8988480-2c8e-48d9-8db6-aa140c333bb4.svg#f8988480-2c8e-48d9-8db6-aa140c333bb4") format("svg");
+font-weight: 200;
+font-style: normal;
+    }
+    @font-face{
+        font-family:"Semplicita W01_n5";
+        src:url("Fonts/385dca89-ab66-4a60-9773-3248fcda8d4c.eot?#iefix") format("eot")
+    }
+    @font-face{
+        font-family:"Semplicita W01";
+        src:url("Fonts/385dca89-ab66-4a60-9773-3248fcda8d4c.eot?#iefix");
+        src:url("Fonts/385dca89-ab66-4a60-9773-3248fcda8d4c.eot?#iefix") format("eot"),url("Fonts/0203ed4e-5c8b-4ada-87f1-b2f45941d310.woff2") format("woff2"),url("Fonts/f68c2972-cbb3-4ca6-b12c-15e2cfc18ff6.woff") format("woff"),url("Fonts/6f3e4712-8ff9-4b71-bcde-70f60b59d24c.ttf") format("truetype"),url("Fonts/56f015af-156d-4cb9-937a-4c228a814578.svg#56f015af-156d-4cb9-937a-4c228a814578") format("svg");
+font-weight: 500;
+font-style: normal;
+    }
+    @font-face{
+        font-family:"Semplicita W01_n6";
+        src:url("Fonts/db58a54d-2c13-41b1-90ae-988eefe6dff4.eot?#iefix") format("eot")
+    }
+    @font-face{
+        font-family:"Semplicita W01";
+        src:url("Fonts/db58a54d-2c13-41b1-90ae-988eefe6dff4.eot?#iefix");
+        src:url("Fonts/db58a54d-2c13-41b1-90ae-988eefe6dff4.eot?#iefix") format("eot"),url("Fonts/306e34ea-ee67-41d0-8336-5c852539ece5.woff2") format("woff2"),url("Fonts/43d2d7fd-af79-4213-9098-a41d8802688b.woff") format("woff"),url("Fonts/00efdaf2-f19d-40e7-9d6c-18c2de56f89c.ttf") format("truetype"),url("Fonts/8bb41e51-60e6-416f-aabb-658ebdf0c741.svg#8bb41e51-60e6-416f-aabb-658ebdf0c741") format("svg");
+font-weight: 600;
+font-style: normal;
+    }
