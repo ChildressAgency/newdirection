@@ -43,6 +43,7 @@ font-style: normal;
 body{
   font-family:"Semplicita", sans-serif;
   font-weight:500;
+  letter-spacing:2px;
 }
 
 .hp-hero{
@@ -52,6 +53,7 @@ body{
   background-image:url(images/golf-course-sunset.jpg);
   background-repeat:no-repeat;
   background-size:cover;
+  background-position:center top;
 }
 .hero-inner{
   padding-top:12%;
@@ -66,7 +68,6 @@ body{
 .hero-footer p{
   color:#fff;
   font-size:17px;
-  letter-spacing:2px;
   margin-bottom:25px;
 }
 .hero-footer p>a{
@@ -77,3 +78,51 @@ body{
   padding-top:20px;
   padding-bottom:20px;
 }
+
+#main{
+  background-color:#072b35;
+  color:#b8cdce;
+  padding-top:60px;
+  padding-bottom:100px;
+}
+#main h1{
+  text-transform:uppercase;
+  font-weight:600;
+  text-align:center;
+  font-size:18px;
+}
+#main h1>span{
+  font-weight:200;
+}
+#main article{
+  font-weight:200;
+  margin-top:40px;
+}
+#main article p{
+  margin-bottom:15px;
+}
+#main article p.mission{
+  font-size:25px;
+  font-weight:500;
+  font-family:serif;
+}
+
+footer{
+  background-color:#072b35;
+  color:#b8cdce;
+  text-align:center;
+  font-size:12px;
+  padding-bottom:40px;
+}
+footer p{
+  margin-bottom:0;
+}
+footer p>a{
+  color:#b8cdce;
+}
+footer p>a:hover,
+footer p>a:focus{
+  color:#b8cdce;
+  text-decoration:underline;
+}
+
