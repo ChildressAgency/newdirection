@@ -69,6 +69,9 @@ body{
   color:#fff;
   font-size:17px;
   margin-bottom:25px;
+  display:inline-block;
+  background-color:rgba(7,43,53,.7);
+  padding:15px;
 }
 .hero-footer p>a{
   color:#fff;
